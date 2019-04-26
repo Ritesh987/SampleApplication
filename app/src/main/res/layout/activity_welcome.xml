@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Welcome">
+
+
+
+    <TextView
+        android:id="@+id/Welcome"
+        android:text="Welcome"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textSize="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+<TextView
+    android:id="@+id/Username"
+    android:layout_below="@id/Welcome"
+    android:layout_margin="10dp"
+    android:gravity="center"
+    android:textSize="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/fordetail"
+        android:text="Click for Detail"
+        android:background="@drawable/round_button"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginEnd="75dp"
+        android:layout_below="@id/Username"/>
+
+</RelativeLayout>

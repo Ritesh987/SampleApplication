@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:weightSum="10"
+        >
+
+        <TextView
+            android:id="@+id/txtname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="First Name"/>
+        <EditText
+            android:inputType="text"
+            android:id="@+id/edtxtfname"
+            android:layout_marginTop="5dp"
+            android:layout_height="30dp"
+            android:background="@drawable/round_edittext"
+            android:layout_width="match_parent"
+            />
+        <TextView
+            android:id="@+id/txtlname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Last Name"/>
+        <EditText
+            android:id="@+id/edtxtlname"
+            android:inputType="text"
+            android:layout_marginTop="5dp"
+            android:layout_height="30dp"
+            android:background="@drawable/round_edittext"
+            android:layout_width="match_parent"
+            />
+        <TextView
+            android:id="@+id/txtEmail"
+            android:text="Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/edEmail"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:background="@drawable/round_edittext"
+            android:layout_height="30dp" />
+        <TextView
+            android:id="@+id/txtPhoneno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Phone Number"/>
+        <EditText
+            android:id="@+id/edNumber"
+            android:layout_marginTop="5dp"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:background="@drawable/round_edittext"
+            android:layout_height="30dp" />
+        <TextView
+            android:id="@+id/txtaddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address"/>
+        <EditText
+            android:id="@+id/edaddress"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:inputType=""
+            android:background="@drawable/round_edittext"
+            android:layout_height="30dp" />
+        <TextView
+            android:id="@+id/txtforstate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="State"/>
+        <EditText
+            android:id="@+id/edforstate"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:background="@drawable/round_edittext"
+            android:layout_height="30dp" />
+        <TextView
+            android:id="@+id/txtforCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="City"/>
+        <EditText
+            android:id="@+id/edcity"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:inputType="text"
+            android:background="@drawable/round_edittext"
+            android:layout_height="30dp" />
+        <TextView
+            android:id="@+id/txtforcountry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Country"/>
+        <EditText
+            android:id="@+id/edcountry"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:inputType="text"
+            android:background="@drawable/round_edittext"
+            android:layout_height="30dp" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:text="Submit"
+            android:textColor="#000000"
+            android:layout_margin="10dp"
+            android:background="@drawable/round_edittext"
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:layout_height="35dp" />
+
+
+    </LinearLayout>
+</RelativeLayout>
